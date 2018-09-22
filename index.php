@@ -3,7 +3,8 @@
 	<title>Prueba de  Angelica</title>
 </head>
 <body>
-	<?php echo '<p>Hola mundo Angelica Haroku</p>'; ?>
+	<?php $name = 'Angelica';
+	echo '<p>Hola mundo $name  Haroku</p>'; ?>
 </body>
 
 </html>
