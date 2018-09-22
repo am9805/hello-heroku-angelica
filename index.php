@@ -3,8 +3,7 @@
 	<title>Prueba de  Angelica</title>
 </head>
 <body>
-	<?php $name = 'Lola';
-	echo '<p>Hola mundo $name  Haroku</p>'; ?>
+	<?php echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';?>
 </body>
 
 </html>
